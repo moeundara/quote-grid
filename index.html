@@ -15,9 +15,11 @@
     <!--Global Container-->
     <div class="container mx-auto max-w-7xl">
       <!--Card Container-->
-      <div class="text-white p-2 md:p-7">
+      <div
+        class="grid gap-6 md:grid-cols-4 md:grid-rows-2 text-white p-2 md:p-7"
+      >
         <!--Box1-->
-        <div class="relative rounded-lg bg-purple-700 p-10">
+        <div class="md:col-span-2 relative rounded-lg bg-purple-700 p-10">
           <img
             src="images/bg-pattern-quotation.svg"
             class="scale-125 absolute top-6 right-7 md:top-7"
@@ -44,7 +46,7 @@
               current, if not more so, in the company I joined. I honestly feel
               I got every penny's worth.
             </p>
-            <p class="text-lg font-semibold opacity-70">
+            <p class="text-lg font-semibold opacity-70 line-clamp-5">
               "I was an EMT for many years before I joined the bootcamp. I've
               been looking to make a transition and have heard some people who
               had an amazing experience here. I signed up for the free intro
@@ -83,7 +85,7 @@
             <p class="text-xl font-semibold">
               The team was very supportive and kept me motivated.
             </p>
-            <p class="text-lg font-semibold opacity-70">
+            <p class="text-lg font-semibold opacity-70 line-clamp-5">
               "I started as a total newbie with virtually no coding skills. I
               now work as a mobile engineer for a big company. This was one of
               the best investments I've made in myself. Lorem ipsum dolor sit
@@ -97,7 +99,9 @@
           </div>
         </div>
         <!--Box3-->
-        <div class="hidden rounded-lg bg-white p-10 text-gray-900">
+        <div
+          class="hidden md:block md:row-span-2 rounded-lg bg-white p-10 text-gray-900"
+        >
           <!--Profile-->
           <div class="flex space-x-4 justify-start">
             <img
@@ -161,7 +165,7 @@
           </div>
         </div>
         <!--Box5-->
-        <div class="rounded-lg p-10 bg-gray-900">
+        <div class="md:col-span-2 rounded-lg p-10 bg-gray-900">
           <!--Profile-->
           <div class="flex space-x-4 justify-start">
             <img
@@ -195,7 +199,7 @@
           </div>
         </div>
         <!--Box6-->
-        <div class="rounded-lg bg-white p-10 text-gray-900">
+        <div class="md:hidden rounded-lg bg-white p-10 text-gray-900">
           <!--Profile-->
           <div class="flex space-x-4 justify-start">
             <img
